@@ -1,84 +1,223 @@
-<h1 align="center">Hi, I'm Sri 👋</h1>
-<h3 align="center">Cybersecurity Student | Aspiring SOC Analyst | Threat Detection & Malware Analysis</h3>
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=slant&color=0:0d1117,100:00ff41&height=200&section=header&text=SRI&fontSize=90&fontColor=00ff41&fontAlignY=45&desc=SOC%20Analyst%20%7C%20Malware%20Researcher%20%7C%20Blue%20Team&descAlignY=70&descSize=18&animation=fadeIn" width="100%"/>
+
+</div>
+
+<div align="center">
+
+```
+
+┌──(sri@dscet)-[~/cybersecurity]
+└─$ whoami
+
+```
+
+</div>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=00FF9C&center=true&vCenter=true&width=600&lines=Final+Year+B.E.+CSE+(Cybersecurity)+Student;SOC+Analyst+in+the+making;Building+DeepShield+-+Android+Malware+Detection;Blue+Team+%7C+Threat+Intel+%7C+Digital+Forensics" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=00FF41&center=true&vCenter=true&width=650&lines=Final-Year+B.E.+CSE+(Cybersecurity)+Student;Aspiring+SOC+Analyst;Building+DeepShield+%E2%80%94+Android+Malware+Detection;Blue+Team+%7C+Threat+Intel+%7C+Digital+Forensics;Access+Level%3A+Root+Learner" alt="Typing SVG" />
 </p>
 
----
+<div align="center">
 
-### 🧑‍💻 About Me
+![Visitors](https://komarev.com/ghpvc/?username=Shreekanth162006&label=TERMINAL%20VISITS&color=00ff41&style=flat-square)
+![Status](https://img.shields.io/badge/status-online-00ff41?style=flat-square&logo=statuspage&logoColor=black)
+![Focus](https://img.shields.io/badge/focus-SOC%20%2F%20AppSec-000000?style=flat-square&logo=hackthebox&logoColor=00ff41)
 
-- 🎓 Final-year **B.E. Computer Science & Engineering (Cybersecurity, Honours)** student at DSCET, graduating 2027
-- 🎯 Targeting a career as a **SOC Analyst**
-- 🕵️ Completed **4 internships** across cybercrime law enforcement (Cyber Crime Wing HQ Chennai, Cyber Crime Police Station Pondicherry) and tech organizations (VDT Edu Tantr Ventures, AdroIT Technologies / IBM Naan Mudhalvan)
-- 🛠️ Currently building **DeepShield** — a hybrid Android malware detection platform
-- 📜 NPTEL certified in Cryptography & Network Security, Cloud/IoT/Edge ML, and Cyber Security & Privacy
-- 🏫 Secretary & Joint Secretary of a departmental club at DSCET
-- 🎨 Also enjoy visual design and creative projects on the side
+</div>
 
 ---
 
-### 🚀 Featured Project — DeepShield
+<div align="center">
 
+```
+
+┌──(sri@dscet)-[~]
+└─$ cat about_me.txt
+
+```
+
+</div>
+
+```yaml
+name:          Sri
+role:          Final-Year B.E. CSE (Cybersecurity, Honours) — DSCET, Class of 2027
+target_role:   SOC Analyst
+internships:
+  - Cyber Crime Wing HQ, Chennai            [Law Enforcement]
+  - Cyber Crime Police Station, Pondicherry  [Law Enforcement]
+  - VDT Edu Tantr Ventures, Bangalore       [Tech]
+  - AdroIT Technologies / IBM Naan Mudhalvan [Tech]
+certifications:
+  - NPTEL: Cryptography and Network Security
+  - NPTEL: Foundation of Cloud IoT Edge ML
+  - NPTEL: Cyber Security and Privacy
+leadership:
+  - Secretary, Departmental Club — DSCET
+  - Joint Secretary, Departmental Club — DSCET
+currently_building: DeepShield
+status:        actively probing new CVEs and refining detection models
+```
+
+---
+
+<div align="center">
+
+```
+
+┌──(sri@dscet)-[~/projects]
+└─$ ls -la --active
+
+```
+
+</div>
+
+<table align="center">
+<tr>
+<td width="50%" valign="top">
+
+### 🛡️ `DeepShield/`
 **Hybrid Android Malware Detection Platform**
-Combines static + dynamic analysis with explainable AI to detect malicious APKs.
 
-- 📥 APK upload & metadata extraction
-- 🔍 Decompilation via JADX / APKTool
-- 🤖 ML-based detection (XGBoost, Scikit-learn) trained on the **Drebin dataset**
-- 🧠 SHAP-based Explainable AI for transparent risk scoring
-- 📄 Automated PDF report generation
-- 🔮 Roadmap: dynamic sandbox analysis & threat intelligence integration
+```bash
+$ ./deepshield --scan target.apk
+[+] Extracting APK metadata...
+[+] Decompiling via JADX/APKTool...
+[+] Running XGBoost classifier...
+[+] Generating SHAP explanation...
+[+] Risk score: COMPUTED
+[+] Report: deepshield_report.pdf
+```
+
+- Static + dynamic analysis pipeline
+- ML detection (XGBoost, Scikit-learn) on the **Drebin dataset**
+- SHAP-based Explainable AI for transparent scoring
+- Automated PDF reporting
+- 🔜 Sandbox dynamic analysis + threat intel feeds
+
+</td>
+<td width="50%" valign="top">
+
+### 🎫 `Helpdesk-Ticketing-System/`
+**RBAC-secured internal tooling**
+
+```bash
+$ stack --list
+> React
+> Node.js
+> MySQL
+> Audit Logging: ENABLED
+> RBAC: ENFORCED
+```
+
+Repositioned as an **AppSec differentiator** — access control, audit trails, and secure-by-design ticket handling.
+
+<br>
+
+### 💰 `Fund-Trail-Analysis-Tool/`
+**Financial crime investigation tooling**
+
+```bash
+$ trace --wallet <input>
+[+] Mapping transaction layers...
+[+] Flagging mule account patterns...
+```
+
+Built on real cybercrime investigation experience from law enforcement internships.
+
+</td>
+</tr>
+</table>
 
 ---
 
-### 🗂️ Other Projects
+<div align="center">
 
-| Project | Description |
-|---|---|
-| **Helpdesk Ticketing System** | React / Node.js / MySQL app with RBAC and audit logging |
-| **Fund Trail Analysis Tool** | Tool for tracing financial fund trails, built on cybercrime investigation experience |
+```
 
----
+┌──(sri@dscet)-[~/arsenal]
+└─$ nmap -sV skills.local
 
-### 🛡️ Skills & Tools
+```
 
-**Security Domains:** SOC Operations · Malware Analysis · Digital Forensics · Application Security · Threat Intelligence
-
-**Languages:** Python · JavaScript · SQL
-
-**Frameworks & Tools:** React · Node.js · Scikit-learn · XGBoost · SHAP · JADX · APKTool · Kali Linux · Autopsy
-
-**Certifications:** NPTEL — Cryptography & Network Security · Foundation of Cloud IoT Edge ML · Cyber Security and Privacy
-
----
-
-### 📊 GitHub Stats
+</div>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Shreekanth162006&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" height="165"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shreekanth162006&theme=radical&hide_border=true" alt="GitHub Streak" height="165"/>
+  <img src="https://img.shields.io/badge/SOC%20Operations-000000?style=for-the-badge&logo=datadog&logoColor=00ff41" />
+  <img src="https://img.shields.io/badge/Malware%20Analysis-000000?style=for-the-badge&logo=virustotal&logoColor=00ff41" />
+  <img src="https://img.shields.io/badge/Digital%20Forensics-000000?style=for-the-badge&logo=forensic&logoColor=00ff41" />
+  <img src="https://img.shields.io/badge/AppSec-000000?style=for-the-badge&logo=owasp&logoColor=00ff41" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shreekanth162006&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
+  <img src="https://skillicons.dev/icons?i=python,js,mysql,react,nodejs,linux,git,kali&theme=dark" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-14151a?style=flat-square&logo=python&logoColor=00ff41" />
+  <img src="https://img.shields.io/badge/JavaScript-14151a?style=flat-square&logo=javascript&logoColor=00ff41" />
+  <img src="https://img.shields.io/badge/Scikit--learn-14151a?style=flat-square&logo=scikitlearn&logoColor=00ff41" />
+  <img src="https://img.shields.io/badge/XGBoost-14151a?style=flat-square&logo=xgboost&logoColor=00ff41" />
+  <img src="https://img.shields.io/badge/Kali%20Linux-14151a?style=flat-square&logo=kalilinux&logoColor=00ff41" />
+  <img src="https://img.shields.io/badge/Autopsy-14151a?style=flat-square&logo=autopsy&logoColor=00ff41" />
+  <img src="https://img.shields.io/badge/JADX%20%2F%20APKTool-14151a?style=flat-square&logo=android&logoColor=00ff41" />
+  <img src="https://img.shields.io/badge/SHAP-14151a?style=flat-square&logo=OpenAI&logoColor=00ff41" />
 </p>
 
 ---
 
-### 📫 Connect with Me
+<div align="center">
+
+```
+
+┌──(sri@dscet)-[~/stats]
+└─$ ./fetch_activity.sh
+
+```
+
+</div>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Shreekanth162006&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=c9d1d9" height="165"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shreekanth162006&hide_border=true&background=0d1117&stroke=00ff41&ring=00ff41&fire=00ff41&currStreakLabel=00ff41&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=8b949e" height="165"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shreekanth162006&layout=compact&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shreekanth162006&bg_color=0d1117&color=00ff41&line=00ff41&point=ffffff&hide_border=true" width="90%" />
+</p>
+
+---
+
+<div align="center">
+
+```
+
+┌──(sri@dscet)-[~]
+└─$ cat contact.cfg
+
+```
+
+</div>
 
 <p align="center">
   <a href="mailto:Shreekanth162006@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Gmail-000000?style=for-the-badge&logo=gmail&logoColor=00ff41" />
   </a>
   <a href="https://linkedin.com/in/srikanthn16">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=00ff41" />
   </a>
   <a href="https://github.com/Shreekanth162006">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=00ff41" />
   </a>
 </p>
 
-<p align="center"><i>🔒 "Detect. Defend. Deconstruct." 🔒</i></p>
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2000&pause=1000&color=00FF41&center=true&vCenter=true&width=500&lines=connection+closed+by+remote+host;session+terminated." alt="Terminal close" />
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=slant&color=0:00ff41,100:0d1117&height=100&section=footer" width="100%"/>
