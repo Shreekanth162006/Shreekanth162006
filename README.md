@@ -1,3 +1,17 @@
+<!-- Static ASCII fallback — renders instantly even if the image services below are slow or down -->
+```
+
+ ███████╗██████╗ ██╗
+ ██╔════╝██╔══██╗██║
+ ███████╗██████╔╝██║
+ ╚════██║██╔══██╗██║
+ ███████║██║  ██║██║
+ ╚══════╝╚═╝  ╚═╝╚═╝
+
+ SOC Analyst (in progress) | Malware Researcher | Blue Team
+
+```
+
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=slant&color=0:0d1117,100:00ff41&height=200&section=header&text=SRI&fontSize=90&fontColor=00ff41&fontAlignY=45&desc=SOC%20Analyst%20%7C%20Malware%20Researcher%20%7C%20Blue%20Team&descAlignY=70&descSize=18&animation=fadeIn" width="100%"/>
@@ -18,6 +32,10 @@
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=00FF41&center=true&vCenter=true&width=650&lines=Final-Year+B.E.+CSE+(Cybersecurity)+Student;Aspiring+SOC+Analyst;Building+DeepShield+%E2%80%94+Android+Malware+Detection;Blue+Team+%7C+Threat+Intel+%7C+Digital+Forensics;Access+Level%3A+Root+Learner" alt="Typing SVG" />
 </p>
+
+*(Static header above renders instantly and always works. The animated banner below loads a moment after — if it ever fails to load, the ASCII text still has you covered.)*
+
+<p align="center"><sub>Final-Year B.E. CSE (Cybersecurity) Student &middot; Aspiring SOC Analyst &middot; Building DeepShield &middot; Blue Team | Threat Intel | Digital Forensics</sub></p>
 
 <div align="center">
 
